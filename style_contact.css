@@ -1,0 +1,101 @@
+body{
+    background-attachment: fixed;
+    background-color: rgb(83, 34, 123);
+    margin-bottom: auto;
+    margin-right: auto;
+    justify-self: unset;
+    letter-spacing: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
+    font-style: oblique;
+    background-position: center;
+    color: black;
+    font-size: 20pt;
+}
+.fb_logo{
+    width: 40px;
+    height: 40px;
+    position: middle;
+    top: 50px;
+    bottom: 50px;
+}
+
+.insta_logo{
+    width: 40px;
+    height: 40px;
+    position: middle;
+    top: 50px;
+    bottom: 50px;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid rgb(83, 34, 123);
+    padding: 10px;
+    }
+.input {
+    width:100px;
+    height: 100px;
+}   
+
+
+
+a{
+    color: black; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
+    font-style: oblique;
+    font-size: 20pt;
+}
+div.a {
+    font-size: 150%;
+  }
+.nav {
+    background:rgb(83, 34, 123);
+    text-align: left;
+
+}
+
+.nav ul {
+    list-style: none;
+    display:inline-flex
+}
+
+.nav ul li {
+    width: 170px;
+    margin: 0px;
+    padding: 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    text-align: center;
+    color:mediumaquamarine;
+    text-transform: uppercase;
+    font-size: 14pt;
+}
+
+.nav ul li:hover {
+    background:powderblue;
+    font-size: 14pt;
+}
+
+.dropdown {
+    display: none;
+}
+
+.nav ul li:hover .dropdown {
+    display: block;
+    position: absolute;
+    background:rgb(83, 34, 123);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.nav ul li:hover .dropdown ul {
+    display: block;
+    margin: 10px;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-slace=1.0>
+    <title>Sports</title>
+    <link rel = "stylesheet" type="text/css"
+        href="about_style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,300&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="like.js"></script>
+        <script src="https://kit.fontawesome.com/ba59bc084c.js"></script>
+</head>
+<body>
+    <div class = "nav">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="">Favorites</a>
+            <div class="dropdown">
+            <ul>
+               <li><a href="raves.html">Raves</a></li>
+               <li><a href="sports.html">Sports</a></li>
+            </ul>
+            </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    
+    </div>
+    
+    
+
+</div>
+<div><h1>My favorite sports teams</h1></div>
+<section class="galery">
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 2</div>
+            <a href="https://www.manutd.com/">
+            <img src="sliki/Old-Trafford.jpg" style="width: 100%"></a>
+            <p>My favorite football team is Manchester United. I have been a lifelong
+                fan of the team, supporting them through all the ups and downs.
+                My dream is to visit Old Trafford one day and see them play.</p>
+                <section class="comment">
+                    <div class="comment-box">
+                        <div class="container">
+                        <i onclick="Toggle(btn1)" id="btn1" class="far fa-heart"></i> </div>
+                        <form class="comment-form">
+                            <textarea rows="2" placeholder="Your comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                        </form>
+                        
+                    </div>
+                    </section>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 2</div>
+            <a href="https://rkvardar.mk/">
+            <img src="sliki/vardar.jpg" style="width: 100%"></a>
+            
+            <p>RK Vardar is my favorite handball club. It is the biggest
+                club in Macedonia and have proved that by winning 2 Champions league.
+                Their academy is producing excellent players and are always side by side
+                with the biggest clubs in Europe</p>
+                <section class="comment">
+                    <div class="comment-box">
+                        <div class="container">
+                        <i onclick="Toggle(btn2)" id="btn2" class="far fa-heart"></i></div>
+                        <form class="comment-form">
+                            <textarea rows="2" placeholder="Your comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                        </form>
+                        
+                    </div>
+                    </section>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+                <a class="next" onclick="plusSlides(1)">&#10095</a>
+            </div>
+            <br>
+            <div style="text-align: center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                
+            </div>
+        </div>
+        </section>
+
+        <script src="slideshow.js"></script>
+    
+        <script>
+           var navLinks = document.getElementById("navLinks")
+           function showMenu(){
+               navLinks.style.left = "0";
+           }
+           function hideMenu(){
+               navLinks.style.left = "-200px";
+           }
+        </script>
+
+    
+</body>
+</html>
